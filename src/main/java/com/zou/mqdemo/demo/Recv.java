@@ -1,4 +1,4 @@
-package com.zou.mqdemo.dome;
+package com.zou.mqdemo.demo;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;

@@ -1,0 +1,16 @@
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    username: root
+    password: 123456
+    port: 5672
+    virtual-host: test_boot
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+      exclude: WEB-INF/**
+server:
+  port: 9991
+
+
